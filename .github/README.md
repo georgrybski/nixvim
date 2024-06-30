@@ -176,5 +176,5 @@ in {
 
 ## Credits
 
-- [elythh](https://github.com/elythh) for the config template
+- [elythh](https://github.com/elythh) for the [config template](https://github.com/elythh/nixvim)
 - [yavko](https://github.com/yavko) for the logo
