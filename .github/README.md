@@ -4,7 +4,7 @@
 
 # Nixvim config
 
-My Neovim config using nixvim.
+Neovim config using nixvim.
 
 <img src="assets/1.png" alt="nvim">
 
