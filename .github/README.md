@@ -89,7 +89,7 @@ If you have nix installed, you can directly run my config from anywhere
 You can try running mine with:
 
 ```shell
-nix run 'github:elythh/nixvim'
+nix run 'github:georgrybski/nixvim'
 ```
 
 ## Installing into NixOS configuration
@@ -103,7 +103,7 @@ You can add my `nixvim` configuration as an input to your `NixOS` configuration 
 ```nix
 {
  inputs = {
-    nixvim.url = "github:elythh/nixvim";
+    nixvim.url = "github:georgrybski/nixvim";
  };
 }
 ```
@@ -149,7 +149,7 @@ configuration (`home.packges = with pkgs; [ neovim ]`), but you replace
 ### Bonus lazy method
 
 You can just straight up alias something like `nix run
-'github:elythh/nixvim'` to `nvim`.
+'github:georgrybski/nixvim'` to `nvim`.
 
 ### Bonus extend method
 
@@ -176,4 +176,5 @@ in {
 
 ## Credits
 
+- [elythh](https://github.com/elythh) for the base config template
 - [yavko](https://github.com/yavko) for the logo
